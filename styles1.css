@@ -1,0 +1,62 @@
+body {
+	font-size: 16px;
+	color: rgb(197, 81, 81);
+	background-color: #42305a;
+	font-family: 'Lobster', 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #c3f7b3cc;
+	border-radius: 0;
+	border: 0;
+	color: rgb(200, 245, 96);
+
+}
+
+.navbar-brand p {
+	color: rgba(129, 6, 6, 0.856);
+	font-size: 20px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: rgb(70, 63, 63);
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #7ea8af;
+}
+/* END HEADER */
+
+/* Section */
+#home {
+	margin-bottom: 30px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: rgb(182, 180, 202);
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+/* End Section */
+
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
